@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var port = process.env.PORT || 8000;
 
 app.get('/', function (request, response) {
 
@@ -16,7 +17,7 @@ app.get('/contact', function (request, response) {
     response.send('Contact page');
 });
 
-app.listen(8000, function () {
+app.listen(port, function () {
 
-    console.log('Server running on port 8000...');
+    console.log('Server running on port ' + port +'...');
 });
