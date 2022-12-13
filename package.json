@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/Mirdrack/basic-express-server#readme",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.17.3"
   }
 }
